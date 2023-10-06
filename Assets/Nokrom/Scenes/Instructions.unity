@@ -7315,42 +7315,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 581ea2e7a3383fa4eac2d162354979b5, type: 3}
---- !u!1 &1275160129
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1275160130}
-  m_Layer: 5
-  m_Name: Script
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1275160130
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1275160129}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1766951462}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!4 &1276528511 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4798570233257244, guid: 581ea2e7a3383fa4eac2d162354979b5,
@@ -7664,12 +7628,12 @@ RectTransform:
   - {fileID: 90020187}
   - {fileID: 1631820625}
   m_Father: {fileID: 1766951462}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 45.734, y: 45.752}
-  m_SizeDelta: {x: 8.52, y: 8.5}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1328557824
 MonoBehaviour:
@@ -10094,6 +10058,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b586bae919bf843b1c21feca606701, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  home: 
 --- !u!1001 &1640387476
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10700,7 +10665,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1275160130}
   - {fileID: 1328557823}
   m_Father: {fileID: 1353330085}
   m_RootOrder: 11

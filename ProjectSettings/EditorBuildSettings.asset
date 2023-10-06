@@ -137,4 +137,28 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/TopDownEngine/ThirdParty/MoreMountains/MMTools/Demos/MMSceneLoading/MMSceneLoadingDemoSceneB.unity
     guid: 352d34cac2435634fb99618d19a3929c
+  - enabled: 1
+    path: Assets/Nokrom/Scenes/Home.unity
+    guid: 651a20d261d2aa049ba2ca3a4c307ba4
+  - enabled: 1
+    path: Assets/Nokrom/Scenes/Credits.unity
+    guid: 074b893e715a6c54da2beb896fe0198b
+  - enabled: 1
+    path: Assets/Nokrom/Scenes/Instructions.unity
+    guid: 2480c2746fca20f4db32f1a35d7cc584
+  - enabled: 1
+    path: Assets/Nokrom/Scenes/Level1.unity
+    guid: c8d1bea3d8cb7bf4dbb22c341c5f7cf9
+  - enabled: 1
+    path: Assets/Nokrom/Scenes/Level2.unity
+    guid: c6a11b6e892fc8045807bd45ca6d05fb
+  - enabled: 1
+    path: Assets/Nokrom/Scenes/Level3.unity
+    guid: ef3cd5bf2c2bd604c866bc77ddbe5c68
+  - enabled: 1
+    path: Assets/Nokrom/Scenes/Lose.unity
+    guid: 8a837450071ea7a4bacf9dc077a745d1
+  - enabled: 1
+    path: Assets/Nokrom/Scenes/Win.unity
+    guid: b7261dbdee59ac142a1dc02eda0b13fa
   m_configObjects: {}

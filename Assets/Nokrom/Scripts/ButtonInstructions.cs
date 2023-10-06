@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ButtonInstructions : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public string instructions;
+
     public void OpenInstructions()
     {
-        Debug.Log("Instructions");
+        SceneManager.LoadScene("Instructions");
     }
 }

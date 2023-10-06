@@ -1,11 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ButtonPlay : MonoBehaviour
 {
+    public string play;
+
     public void OpenSection()
     {
-        Debug.Log("Jugando");
+        SceneManager.LoadScene("Level1");
     }
 }
