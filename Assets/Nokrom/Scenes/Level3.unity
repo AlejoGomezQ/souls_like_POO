@@ -11947,6 +11947,16 @@ PrefabInstance:
       propertyPath: InitialFacingDirection
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1623540488967734694, guid: a200a0b4274de1d4da0e68119fadcbbb,
+        type: 3}
+      propertyPath: ReferenceMMPath
+      value: 
+      objectReference: {fileID: 703479863}
+    - target: {fileID: 8014861420321362752, guid: a200a0b4274de1d4da0e68119fadcbbb,
+        type: 3}
+      propertyPath: BrainActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a200a0b4274de1d4da0e68119fadcbbb, type: 3}
 --- !u!4 &214256367 stripped
@@ -15605,7 +15615,7 @@ PrefabInstance:
         type: 3}
       propertyPath: ReferenceMMPath
       value: 
-      objectReference: {fileID: 703479863}
+      objectReference: {fileID: 59318497}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 89e8fe862f5cce84198ece4736c332ef, type: 3}
 --- !u!4 &831378564 stripped
@@ -18202,6 +18212,37 @@ PrefabInstance:
     - target: {fileID: 4253665730406636, guid: b6993e89d9af3f64182a41c77cf345c2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532343120003476, guid: b6993e89d9af3f64182a41c77cf345c2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532343120003476, guid: b6993e89d9af3f64182a41c77cf345c2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703451067142162, guid: b6993e89d9af3f64182a41c77cf345c2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703451067142162, guid: b6993e89d9af3f64182a41c77cf345c2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 20156376138150884, guid: b6993e89d9af3f64182a41c77cf345c2,
+        type: 3}
+      propertyPath: orthographic size
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 114246380927595094, guid: b6993e89d9af3f64182a41c77cf345c2,
+        type: 3}
+      propertyPath: m_Lens.GateFit
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114246380927595094, guid: b6993e89d9af3f64182a41c77cf345c2,
+        type: 3}
+      propertyPath: m_Lens.OrthographicSize
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 224058847079603344, guid: b6993e89d9af3f64182a41c77cf345c2,
         type: 3}
