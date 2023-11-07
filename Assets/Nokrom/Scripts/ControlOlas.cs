@@ -1,18 +1,30 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using MoreMountains.Tools;
+using TMPro;
 
-public class ControlOlas : MonoBehaviour
+public class ControlOlas : MonoBehaviour, MMEventListener<MMGameEvent>
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField]
+    private TMP_Text texto;
+
+    void OnEnable()
     {
-        
+        this.MMEventStartListening<MMGameEvent>();
     }
 
-    // Update is called once per frame
-    void Update()
+    void OnDisable()
     {
-        
+        this.MMEventStopListening<MMGameEvent>();
+    }
+
+    public virtual void OnMMEvent(MMGameEvent e)
+    {
+        if(e.EventName == "ActualizarUIOla")
+        {
+            Oleadas temp = Oleadas.Instance;
+            texto.text = "Ola " + temp.OlaActual + "/" + temp.CantidadOlas();
+        }
     }
 }
