@@ -5,7 +5,6 @@ using MoreMountains.Tools;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-using Nokrom.OlaData;
 
 public enum EstadosGrupo{
     EN_COLA,SIN_EMPEZAR,EJECUCION,TERMINADO
