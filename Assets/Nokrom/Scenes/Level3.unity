@@ -5485,7 +5485,7 @@ GameObject:
   - component: {fileID: 152361715}
   - component: {fileID: 152361714}
   - component: {fileID: 152361716}
-  m_Layer: 9
+  m_Layer: 31
   m_Name: Imagen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14190,7 +14190,7 @@ GameObject:
   - component: {fileID: 622876643}
   - component: {fileID: 622876645}
   - component: {fileID: 622876644}
-  m_Layer: 9
+  m_Layer: 31
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17176,7 +17176,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1094117464}
-  m_Layer: 15
+  m_Layer: 31
   m_Name: Contador Ola
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25146,7 +25146,7 @@ GameObject:
   - component: {fileID: 2089360961}
   - component: {fileID: 2089360960}
   - component: {fileID: 2089360959}
-  m_Layer: 15
+  m_Layer: 31
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
